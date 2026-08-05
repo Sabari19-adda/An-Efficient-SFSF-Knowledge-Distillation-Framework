@@ -1,7 +1,4 @@
-
-
-
-#An Efficient Selective Feature-Layer and Soft-Label Fused Knowledge Distillation Framework for Building a
+# An Efficient Selective Feature-Layer and Soft-Label Fused Knowledge Distillation Framework for Building a
 Lightweight Multi-Stage Alzheimer’s Disease Classification System
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
