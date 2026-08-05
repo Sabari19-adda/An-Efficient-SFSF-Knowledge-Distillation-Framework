@@ -17,15 +17,15 @@ Deploying deep learning models in resource-constrained medical environments is h
 
 ---
 
-## 🚀 Key Features
+## 💻 Tech Stack & Tools
 
-* **Dual Knowledge Distillation:** Combines output soft-labels (dark knowledge) with intermediate feature-map alignment.
-* **Non-Consecutive Layer Transfer:** Selectively extracts semantic representations from non-adjacent layers (`mixed7` & `mixed10` in InceptionV3; `conv4_block23_out` & `conv5_block3_out` in ResNet101).
-* **Dimension Matching Alignment:** Employs Global Average Pooling (GAP), a trainable projection matrix ($W_p$), and $L_2$ normalization to bridge teacher-student feature spatial and channel mismatches.
-* **Compact Student Architecture:** Built with depthwise separable convolution layers (`separable_conv2d_3`, `separable_conv2d_6`) to drastically lower parameters and FLOPs.
-* **Multi-Objective Loss:** Simultaneously optimizes classification loss, distillation loss, and feature-alignment loss:
-  $$\mathcal{L} = \alpha \mathcal{L}_{\text{CE}} + (1 - \alpha) \mathcal{L}_{\text{KD}} + \beta \mathcal{L}_{\text{Feat}}$$
+* **Languages:** Python 3.8+
+* **Deep Learning:** TensorFlow 2.x / Keras
+* **Computer Vision & Analysis:** OpenCV, NumPy, SciPy, Scikit-learn, Matplotlib
+* **Explainability:** Grad-CAM
+* **Environments:** Google Colab / Kaggle
 
 ---
 
-## 🏗️ System Architecture
+📜 License
+This project is licensed under the MIT License - see the LICENSE file for details.
